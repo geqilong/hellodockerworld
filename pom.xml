@@ -66,10 +66,7 @@
     </build>
     <profiles>
         <profile>
-            <id>native</id>
-            <properties>
-                <java.home>C:/Program Files/Java/graalvm-ce-java8-21.1.0/jre</java.home>
-            </properties>
+            <id>native</id>            
             <build>
                 <plugins>
                     <plugin>
